@@ -9,8 +9,8 @@
         <version>1.0.0</version>
     </parent>
 
-    <artifactId>history-service</artifactId>
-    <name>history-service</name>
+    <artifactId>gateway-service</artifactId>
+    <name>gateway-service</name>
     <packaging>jar</packaging>
 
     <dependencies>

@@ -1,8 +1,0 @@
-[
-  { "id":"AA01","question":"3 + 5","solution":8,"angerLevel":0,"message":"Bro… das ist literally 1. Klasse 😴","difficulty":"EASY","timeLimitSec":20,
-    "wrongAnswer": "Hhahahahahha so scheisse kannst du nicht rechnen 😂"
-  },
-  { "id":"AA02","question":"12 × (7 − 3)","solution":48,"angerLevel":3,"message":"Bruh, das is easy... enttäusch mich nicht 😤","difficulty":"MEDIUM","timeLimitSec":25, "wrongAnswer": "Wo hesh du rechne glernt" },
-  { "id":"AA06","question":"42 ÷ 0","solution":0,"angerLevel":5,"message":"💀 Warum teilst du durch NULL?!","difficulty":"IMPOSSIBLE","timeLimitSec":15, "wrongAnswer": "Vallah jedes kind chan das" },
-  { "id":"AA14","question":"5^5","solution":3125,"angerLevel":4,"message":"Power up! ⚡","difficulty":"HARD","timeLimitSec":30, "wrongAnswer": "So ass wie luca" }
-]
