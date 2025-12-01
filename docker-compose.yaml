@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+
+  gateway-service:
+    image: gateway-service:latest
+    build: ./gateway-service
+    ports:
+      - "8085:8085"
+    depends_on:
+      - basic-service
+      - scientific-service
+      - statistics-service
+      - history-service
+
+  basic-service:
+    image: basic-service:latest
+    build: ./basic-service
+    ports:
+      - "8081:8081"
+
+  scientific-service:
+    image: scientific-service:latest
+    build: ./scientific-service
+    ports:
+      - "8082:8082"
+
+  statistics-service:
+    image: statistics-service:latest
+    build: ./statistics-service
+    ports:
+      - "8083:8083"
+
+  history-service:
+    image: history-service:latest
+    build: ./history-service
+    ports:
+      - "8084:8084"
+
+  frontend-service:
+    image: frontend-service:latest
+    build: ./frontend-service
+    ports:
+      - "8080:80"
