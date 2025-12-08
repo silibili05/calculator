@@ -22,3 +22,6 @@ Tokenizer
 Fehlerbehandlung
 Ich habe diesen Code übernommen, an mein Projekt angepasst und integriert.
 Damit funktioniert der Berechnungsservice vollständig.
+
+
+## This service is no longer in use :(
