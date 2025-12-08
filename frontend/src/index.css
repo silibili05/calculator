@@ -25,10 +25,18 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
+    background: linear-gradient(135deg, #f3f6fa, #e9edf5);
     min-height: 100vh;
+    color: #2b2b2b;
+    display: block;
+}
+.wrapper {
+    width: 100%;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 20px;
 }
 
 h1 {
